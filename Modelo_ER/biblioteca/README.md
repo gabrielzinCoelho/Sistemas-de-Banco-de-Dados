@@ -11,5 +11,5 @@ Faça um diagrama ER para um sistema de empréstimos de livros de uma biblioteca
 Uma das possíveis soluções para a [modelagem do problema](biblioteca.xml) descrito é:
 
 <p align="center">
-    <img src="./biblioteca.png" width="600px" height="600px">
+    <img src="./biblioteca.png" width="800px" height="600px">
 </p>
