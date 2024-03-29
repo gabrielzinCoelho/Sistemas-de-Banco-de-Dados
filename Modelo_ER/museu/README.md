@@ -19,5 +19,5 @@ Faça um diagrama ER para um sistema de um museu de artes, a partir das seguinte
 Uma das possíveis soluções para a [modelagem do problema](museu.xml) descrito é:
 
 <p align="center">
-    <img src="./museu.png" width="900px" height="600px">
+    <img src="./museu.png" width="900px" height="450px">
 </p>
