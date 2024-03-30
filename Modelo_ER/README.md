@@ -11,5 +11,5 @@ Os objetos do mundo real são mapeados como entidades que possuem atributos e re
 1. [Empréstimo de Livros - Biblioteca](biblioteca/)
 1. [Sistema de Controle Bancário](banco/)
 1. [Controle de Estoque - Loja de Informática](info)
-1. [Controle de Estoque - Loja de Informática v2]()
+1. [Controle de Estoque - Loja de Informática (v2)](info_v2)
 1. [Museu de Artes](museu)
