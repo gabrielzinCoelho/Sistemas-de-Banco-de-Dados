@@ -23,7 +23,7 @@ Observe o diagrama ER correspondente ao modelo relacional:
 Veja a opção de exclusão mais apropriada definida nos relacionamentos:
 
 * Produto (<u>codProd</u>, descricao, precoVenda, qtdeEstoque, CNPJfor)
-    *  Produto[CNPJfor] $\rightarrow ^{b}$ Fornecedor[CNPJfor]
+    *  Produto[CNPJfor] $\rightarrow ^{b}$ Fornecedor[CNPJ]
 * Pedido (<u>numPed</u>, codCli, dataVenda, nomeVendedor)
     * Pedido[codCli] $\rightarrow ^{b}$ Cliente[codCli]
 * ItemPedido (<u>numPed</u>, <u>codProd</u>, qtdeVendida, precoVendido)
