@@ -18,5 +18,5 @@ Ao longo dos exercícios, vamos nos concentrar nas restrições explícitas, que
 
 ## Exercícios
 
-1. []()
 1. [Restrições de Integridade Referencial: Discoteca](discoteca)
+1. [Restrições de Integridade Referencial: Loja de Produtos](loja)
