@@ -1,0 +1,14 @@
+# Sistema Bancário
+
+Considere o seguinte diagrama ER. Ele representa o banco de dados de um sistema bancário. 
+
+
+Apresente o esquema relacional correspondente ao seu mapeamento ER-Relacional. 
+
+Deixe indicado claramente a chave primária, as chaves secundárias e as chaves estrangeiras (com suas opções de exclusão) de cada tabela, se existirem.
+
+<p align="center">
+    <img src="../readmeImg/02_enunciado.png" width="800px" height="300px">
+</p>
+
+## Solução

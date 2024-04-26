@@ -95,3 +95,9 @@ Criar uma tabela com os atributos específicos da categoria e adicionar um ident
 Após isso, basta adicionar, para cada superclasse, como chave estrangeira a chave primária da categoria (subclasse). 
 
 ## Exercícios
+
+1. [Sistema de uma Biblioteca](biblioteca)
+1. [Sistema Bancário](banco)
+1. [Loja de Produtos](loja)
+1. [Loja de Produtos v2](loja_v2)
+1. [Museu de Artes](museu)
