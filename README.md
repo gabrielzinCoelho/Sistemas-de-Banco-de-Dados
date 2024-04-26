@@ -4,5 +4,6 @@ Repositório que contém exercícios e projetos desenvolvidos ao longo da discip
 
 ## Conteúdos
 
-1. [Modelo Entidade-Relacionamento](Modelo_ER/)
+1. [Modelo Entidade-Relacionamento](Modelo_ER)
 1. [Modelo Relacional](Modelo_Relacional)
+1. [Mapeamento ER-Relacional](Mapeamento_ER_Relacional)
