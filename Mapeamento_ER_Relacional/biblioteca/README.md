@@ -12,22 +12,22 @@ Deixe indicado claramente a chave primária, as chaves secundárias e as chaves 
 
 ## Solução
 
-* Editora (<u>cnpj</u>, nome, endereco, site, e-mail)
+* Editora (<ins>cnpj</ins>, nome, endereco, site, e-mail)
 
-* Livro (<u>isbn</u>, titulo, edicao, anoPublicacao, cnpjEditora)
+* Livro (<ins>isbn</ins>, titulo, edicao, anoPublicacao, cnpjEditora)
     * Livro[cnpjEditora] $\rightarrow ^{b}$ Editora[cnpj]
 
-* LivroAutor (<u>isbn</u>, <u>autor</u>)
+* LivroAutor (<ins>isbn</ins>, <ins>autor</ins>)
     * LivroAutor[isbn] $\rightarrow ^{p}$ Livro[isbn]
 
-* Exemplar (<u>idExemplar</u>, localizacao, tipoEmprestimo, isbn)
+* Exemplar (<ins>idExemplar</ins>, localizacao, tipoEmprestimo, isbn)
     * Exemplar[isbn] $\rightarrow ^{b}$ Livro[isbn]
 
-* Usuario (<u>numMatricula</u>, nome, endereco)
+* Usuario (<ins>numMatricula</ins>, nome, endereco)
 
-* UsuarioFone (<u>numMatricula</u>, <u>fone</u>)
+* UsuarioFone (<ins>numMatricula</ins>, <ins>fone</ins>)
     * UsuarioFone[numMatricula] $\rightarrow ^{p}$ Usuario[numMatricula]
 
-* Emprestimo (<u>idExemplar</u>, <u>numMatricula</u>, dataEmp, dataLimDevol, dataRealDevol)
+* Emprestimo (<ins>idExemplar</ins>, <ins>numMatricula</ins>, dataEmp, dataLimDevol, dataRealDevol)
     * Emprestimo[idExemplar] $\rightarrow ^{p}$ Exemplar[idExemplar]
     * Emprestimo[numMatricula] $\rightarrow ^{p}$ Usuario[numMatricula]
