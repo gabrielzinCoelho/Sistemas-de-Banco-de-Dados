@@ -18,7 +18,7 @@ Deixe indicado claramente a chave primária, as chaves secundárias e as chaves 
 
 * Exibicao (<ins>idExibicao</ins>, *nomeExibicao*, dataInicio, dataTermino)
 
-* ObraArte (<ins>idObra</ins>, idArtista, titulo, descricao, anoCriacao, origem, epoca, estilo)
+* ObraArte (<ins>idObra</ins>, idArtista, titulo, descricao, anoCriacao, origem, epoca, estilo, tipoDeObra, tipoDePropriedade)
     * ObraArte[idArtista] $\rightarrow ^{b}$ Artista[idArtista]
 
 * Pintura (<ins>idObra</ins>, tipo, material)
