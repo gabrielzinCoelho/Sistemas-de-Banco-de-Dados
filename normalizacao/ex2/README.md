@@ -14,7 +14,7 @@ Aluno (**numMatricula**, nomeAluno, codCurso, nomeCurso)
 
 Historico (**codDisciplina**, **anoSemestreCursada**, **numMatricula**, nomeDisciplina, cargaHorariaDisc, codProfessorDisciplina, nomeProfessor, notaDisciplina, frequenciaDisciplina)
 
-Historico[numMatricula] -> (p) Aluno[numMatricula]
+Historico[numMatricula] $\rightarrow$ (p) Aluno[numMatricula]
 
 
 b) Apresente o esquema relacional normalizado para a 2a Forma Normal, mas não ainda normalizado para a 3a Forma Normal.
@@ -27,13 +27,13 @@ Disciplina (**codDisciplina**, nomeDisciplina, cargaHorariaDisc)
 
 Turma (**codDisciplina**, **anoSemestreCursada**, codProfessorDisciplina, nomeProfessor)
 
-* Turma[codDisciplina] -> (p) Disciplina[codDisciplina]
+* Turma[codDisciplina] $\rightarrow$ (p) Disciplina[codDisciplina]
 
 Historico (**codDisciplina**, **anoSemestreCursada**, **numMatricula**, notaDisciplina, frequenciaDisciplina)
 
-* Historico[numMatricula] -> (p) Aluno[numMatricula]
+* Historico[numMatricula] $\rightarrow$ (p) Aluno[numMatricula]
 
-* Historico[codDisciplina, anoSemestreCursada] -> (p) Turma [codDisciplina, anoSemestreCursada]
+* Historico[codDisciplina, anoSemestreCursada] $\rightarrow$ (p) Turma [codDisciplina, anoSemestreCursada]
 
 
 c) Apresente o esquema relacional normalizado para a 3a Forma Normal.
@@ -42,7 +42,7 @@ R:
 
 Aluno (**numMatricula**, nomeAluno, codCurso)
 
-* Aluno[codCurso] -> (b) Curso[codCurso]
+* Aluno[codCurso] $\rightarrow$ (b) Curso[codCurso]
 
 Curso (**codCurso**, nomeCurso)
 
@@ -52,12 +52,12 @@ Professor (**codProfessor**, nomeProfessor)
 
 Turma (**codDisciplina**, **anoSemestreCursada**, codProfessorDisciplina)
 
-* Turma[codDisciplina] -> (p) Disciplina[codDisciplina]
+* Turma[codDisciplina] $\rightarrow$ (p) Disciplina[codDisciplina]
 
-* Turma[codProfessorDisciplina] -> (b) Professor[codProfessor] 
+* Turma[codProfessorDisciplina] $\rightarrow$ (b) Professor[codProfessor] 
 
 Historico (**codDisciplina**, **anoSemestreCursada**, **numMatricula**, notaDisciplina, frequenciaDisciplina)
 
-* Historico[numMatricula] -> (p) Aluno[numMatricula]
+* Historico[numMatricula] $\rightarrow$ (p) Aluno[numMatricula]
 
-* Historico[codDisciplina, anoSemestreCursada] -> (p) Turma [codDisciplina, anoSemestreCursada]
+* Historico[codDisciplina, anoSemestreCursada] $\rightarrow$ (p) Turma [codDisciplina, anoSemestreCursada]
