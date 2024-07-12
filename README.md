@@ -8,3 +8,5 @@ Repositório que contém exercícios e projetos desenvolvidos ao longo da discip
 1. [Modelo Relacional](Modelo_Relacional)
 1. [Mapeamento ER-Relacional](Mapeamento_ER_Relacional)
 1. [Normalização para Bancos de Dados Relacionais](normalizacao)
+1. [Álgebra Relacional](algebraRelacional)
+1. [Cálculo Relacional](calculoRelacional)
