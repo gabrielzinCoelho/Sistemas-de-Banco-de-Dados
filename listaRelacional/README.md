@@ -5,7 +5,7 @@
 Diagrama do banco de dados usado nos exercícios
 
 <p align="center">
-    <img src="./imagens/esquemaRelacional.png.png" width="500px" height="450px">
+    <img src="./imagens/esquemaRelacional.png" width="500px" height="450px">
 </p>
 
 ## Consultas no Esquema
